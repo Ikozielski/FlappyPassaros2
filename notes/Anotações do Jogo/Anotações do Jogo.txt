@@ -1,6 +1,16 @@
 Tela do jogo
 
-
+Fundo do jogo
+Background
+Importar as Sprites
+Colocar elas na room
+Criar as layers dp backgorund e colocar o background na layer
+Resolução do Jogo
+PLAYER
+Importar a sprite
+Criar o objeto player
+Layer para ele 
+Colocar na Room
 
 
 

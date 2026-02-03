@@ -1,31 +1,62 @@
-Tela do jogo
+---Tela do jogo---
 
 Fundo do jogo
-Background
-Importar as Sprites
-Colocar elas na room
-Criar as layers dp backgorund e colocar o background na layer
-Resolução do Jogo
+	Background
+	Importar as Sprites
+	Colocar elas na room
+	Criar as layers dp backgorund e colocar o background na layer
+	Resolução do Jogo
+
 PLAYER
-Importar a sprite
-Criar o objeto player
-Layer para ele 
-Colocar na Room
+	Importar a sprite
+	Criar o objeto player
+	Layer para ele 
+	Colocar na Room
+
+Obstaculos 
+	Arvore 
+	Importar Sprite 
+	Criar objeto
+	Criar a layer
+	Fazer ele ir para a esquerda 
+	Fazer o player bater nele e avisar que bateu 
+
+Efeito de morte do player 
+	Player não consegue bater asas
+	Background vai parar
+	Inimigo vai parar 
+
+Passaro (Obstaculo) 
+	Importar Sprite 
+	Criar o objeto
+	Criar a  layer
+	Ir para a esquerda
+	Colidir com o player - Show message
+	
+Geração Procedural Do Level
+	Árvore
+		De tempos em tempos ele vai criar uma árvore em uma posição específica
+
+	Passaros
+		Intervalo de criação dos pássaros seja um pouco maior que os das arvores 
+
+Sistema de Pontos 
+	Eu quero ganhar pontos o tempo todo se eu não perdi o jogo
+	
+Sistema de Leveis
+	
+
+
+---Tela Inicial---
 
 
 
 
 
-Tela Inicial
 
 
 
 
 
 
-
-
-
-
-
-Tela Loja
+---Tela Loja---

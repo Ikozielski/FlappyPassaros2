@@ -2,14 +2,9 @@
 // Você pode escrever seu código neste editor
 
 
-if (global.perdeu){
 
-	image_angle += 2;
-}else {
-	if(y >= 352){
-		
-		perde_jogo();
-		
-	}
+game_restart();
 
-}
+global.perdeu = false;
+
+global.pontos = 0;

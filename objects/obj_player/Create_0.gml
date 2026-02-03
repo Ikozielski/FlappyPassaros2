@@ -8,3 +8,4 @@ velocidadePulo = -5;
 vspeed = gravity;
 
 image_speed = 0;
+

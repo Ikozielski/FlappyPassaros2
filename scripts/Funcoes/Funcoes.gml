@@ -6,6 +6,7 @@ function perde_jogo(){
 
 	if(global.perdeu) exit;
 	global.perdeu = true;
+	
  
 	vspeed = -4;
 	hspeed = -2; 

@@ -44,7 +44,29 @@ Sistema de Pontos
 	Eu quero ganhar pontos o tempo todo se eu não perdi o jogo
 	
 Sistema de Leveis
+	Faça ele desenhar a sprite do level do número certo no meio da tela
+	Upando de level ao ganhar pontos
 	
+	1 - 100
+	2 - 250
+	3 - 500
+	4 - 800
+	5 - 1200
+	6 - 1800
+	7 - 2500
+	8 - 3500
+	9 - 5000
+	
+Sistema de Coletáveis
+	Variavel Global
+	Sprites (2 sprites)
+	Exibir a Quantidade na tela
+	Criar Objeto 
+	Criar layer
+	Fazer ir pra esquerda
+	
+
+
 
 
 ---Tela Inicial---

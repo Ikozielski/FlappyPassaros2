@@ -10,8 +10,16 @@ var _pontos = round(global.pontos);
 draw_text(20, 20, "Pontos: " + string(_pontos));
 
 var _meio_da_tela = window_get_width() / 2;
-draw_text(_meio_da_tela, 20, global.level);
+//draw_text(_meio_da_tela, 20, global.level);
 
+//Desenhando a sprite do lvl
+//draw_sprite(spr_level, 1, _meio_da_tela, 20);
+
+//Desenhando a sprite do lvl maior 
+draw_sprite_ext(spr_level, global.level, _meio_da_tela, 30, 2, 2, 0, c_white, 1);
+
+//exibindo a pontuação que falta para o proximo level
+//draw_text(20, 50, global.lista_pontos[global.level-1]);
 
 //Se não resetar a fonte assim, vai ser usada pra todo o jogo, as vezes tu quer fazer isso, mas é bom sempre
 //resetar

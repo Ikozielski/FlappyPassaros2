@@ -82,8 +82,15 @@ Sistema de Coletáveis
 
 ---Tela Inicial---
 
-
-
+Botao
+	Fazer o botão se desenhar
+	Criar uma fonte para o botão
+	Fazer o botão desenhar o texto dele
+	Use a fonte no texto do botão
+	
+	Faça com que o draw set font use a variavel fonte que foi criada no variable definition 
+	
+	Quando eu clicar no botão ele vai ficar mais fino e mais alto 
 
 
 

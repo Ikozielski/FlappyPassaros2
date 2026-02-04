@@ -22,3 +22,10 @@ function perde_jogo(){
 	
 	
 }
+	
+	
+	
+function muda_room(){
+	//Indo para a room do jogo
+	room_goto(rm_jogo);
+}

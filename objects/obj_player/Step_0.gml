@@ -16,3 +16,4 @@ if (global.perdeu){
 
 
 show_debug_message(global.dinheiroTotal);
+

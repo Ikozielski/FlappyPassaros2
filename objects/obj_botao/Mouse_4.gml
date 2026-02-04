@@ -8,3 +8,5 @@ escala_texto_x = 0.7;
 //Diminuindo a escala Y do botão e do texto em 30%
 image_yscale = escala_y * 1.3;
 escala_texto_y = 1.3;
+
+layer_sequence_create("Transicao", 0, 0, sq_transicao);

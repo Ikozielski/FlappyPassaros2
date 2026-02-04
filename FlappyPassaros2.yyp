@@ -58,6 +58,7 @@
     {"id":{"name":"Funcoes","path":"scripts/Funcoes/Funcoes.yy",},},
     {"id":{"name":"VariaveisGlobais","path":"scripts/VariaveisGlobais/VariaveisGlobais.yy",},},
     {"id":{"name":"sq_inicio","path":"sequences/sq_inicio/sq_inicio.yy",},},
+    {"id":{"name":"sq_transicao","path":"sequences/sq_transicao/sq_transicao.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
     {"id":{"name":"spr_bg_agua","path":"sprites/spr_bg_agua/spr_bg_agua.yy",},},
     {"id":{"name":"spr_bg_arvores","path":"sprites/spr_bg_arvores/spr_bg_arvores.yy",},},

@@ -1,3 +1,5 @@
+Tudo o que foi feito nesse projeto:
+
 ---Tela do jogo---
 
 Fundo do jogo
@@ -6,6 +8,7 @@ Fundo do jogo
 	Colocar elas na room
 	Criar as layers dp backgorund e colocar o background na layer
 	Resolução do Jogo
+	Fazer o backgroud ficar mais rapido conforme o level do jogo (FAZER DEPOIS QUE TIVER O SISTEMA DE LEVELS)
 
 PLAYER
 	Importar a sprite
@@ -47,6 +50,7 @@ Sistema de Leveis
 	Faça ele desenhar a sprite do level do número certo no meio da tela
 	Upando de level ao ganhar pontos
 	
+	Pontos necessários para evoluir:
 	1 - 100
 	2 - 250
 	3 - 500
@@ -64,7 +68,14 @@ Sistema de Coletáveis
 	Criar Objeto 
 	Criar layer
 	Fazer ir pra esquerda
+	Desenhar o icone dos coletáveis junto a quantidade de coletaveis 
+	Quando o player colidir com o coletavel, o coletavel some e eu ganho 1 coletavel
 	
+	Criando um efeito de destruição do coletável
+	Quando a explosão ficar bem transparente, era se destrói 
+	
+	Gerar automaticamente o coletável,
+
 
 
 

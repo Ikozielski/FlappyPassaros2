@@ -2,4 +2,8 @@
 // Você pode escrever seu código neste editor
 
 
-perde_jogo();
+
+
+hspeed = -3
+
+

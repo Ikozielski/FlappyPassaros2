@@ -6,8 +6,11 @@
 draw_set_font(fnt_Pontos);
 
 var _pontos = round(global.pontos);
+var _dinheiro = global.coletaveisPeixe;
 
 draw_text(20, 20, "Pontos: " + string(_pontos));
+draw_text(75, 55, ": " + string(_dinheiro));
+draw_sprite_ext(spr_icone_coletavel, global.coletaveisPeixe, 45, 70, 2, 2, 0, c_white, 1);
 
 var _meio_da_tela = window_get_width() / 2;
 //draw_text(_meio_da_tela, 20, global.level);

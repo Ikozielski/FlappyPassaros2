@@ -2,4 +2,4 @@
 // Você pode escrever seu código neste editor
 
 
-perde_jogo();
+instance_create_layer(x, y, layer, obj_coletavel_explosao);

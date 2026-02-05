@@ -12,3 +12,8 @@
 	global.coletaveisPeixe = 0;
 	
 	global.dinheiroTotal = 0;
+	
+	global.destino = rm_jogo;
+	
+	//Variavel para saber se a transicao foi iniciada
+	global.transicao = false;

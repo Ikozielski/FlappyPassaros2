@@ -20,12 +20,23 @@ function perde_jogo(){
 
 	alarm[0] = game_get_speed(gamespeed_fps * 2); //memsmo que = room_speed
 	
+	global.destino = rm_inicio;
+	layer_sequence_create("Transicao", 0, 0, sq_transicao);
+	
 	
 }
 	
 	
 	
 function muda_room(){
+	global.transicao = true;
+	
 	//Indo para a room do jogo
-	room_goto(rm_jogo);
+	room_goto(global.destino);
+}
+	
+
+function finaliza_transicao(){
+
+	global.transicao = false;
 }

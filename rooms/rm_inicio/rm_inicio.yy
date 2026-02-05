@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_inicio",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_inicio/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -17,9 +17,12 @@
         {"$GMRInstance":"v4","%Name":"inst_310311D3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_310311D3","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"propertyId":{"name":"texto","path":"objects/obj_botao/obj_botao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Jogar",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"propertyId":{"name":"cor_texto","path":"objects/obj_botao/obj_botao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$DE000000",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"propertyId":{"name":"destino","path":"objects/obj_botao/obj_botao.yy",},"resource":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_jogo",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-0.10653118,"scaleX":2.4545455,"scaleY":1.0,"x":320.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_4B0CB287","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B0CB287","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"propertyId":{"name":"fonte","path":"objects/obj_botao/obj_botao.yy",},"resource":{"name":"fnt_botao","path":"fonts/fnt_botao/fnt_botao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fnt_botao",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"propertyId":{"name":"destino","path":"objects/obj_botao/obj_botao.yy",},"resource":{"name":"rm_loja","path":"rooms/rm_loja/rm_loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_loja",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"propertyId":{"name":"texto","path":"objects/obj_botao/obj_botao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Loja",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.4545455,"scaleY":1.0,"x":320.0,"y":288.0,},
       ],"layers":[],"name":"level","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"titulo","assets":[

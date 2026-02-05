@@ -9,4 +9,14 @@ escala_texto_x = 0.7;
 image_yscale = escala_y * 1.3;
 escala_texto_y = 1.3;
 
-layer_sequence_create("Transicao", 0, 0, sq_transicao);
+
+if(!global.transicao){
+
+	//Avisando que o destino da transicao é o meu destino 
+	global.destino = destino;
+
+	layer_sequence_create("Transicao", 0, 0, sq_transicao);
+
+	global.transicao = true;
+
+}

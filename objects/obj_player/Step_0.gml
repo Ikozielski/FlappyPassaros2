@@ -11,7 +11,6 @@ if (global.perdeu){
 		perde_jogo();
 		
 	}
-
 }
 
 

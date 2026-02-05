@@ -5,6 +5,6 @@
 
 global.coletaveisPeixe += 1;
 
-show_debug_message( global.coletaveisPeixe);
+show_debug_message(global.coletaveisPeixe);
 
 instance_destroy(obj_coletavel, other);

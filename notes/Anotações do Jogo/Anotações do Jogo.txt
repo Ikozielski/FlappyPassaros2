@@ -94,9 +94,17 @@ Botao
 
 
 
-
-
-
-
-
 ---Tela Loja---
+	
+	(variable definition) 
+	Custo
+	Sprite
+	Bloqueado ou não
+	
+	Fazer ele usar a sprite que foi determinada na variável
+	desenhar debaixo o custo
+	
+	Se ele está bloqueado, ele não tem animação
+	
+	
+	

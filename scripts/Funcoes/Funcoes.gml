@@ -40,3 +40,11 @@ function finaliza_transicao(){
 
 	global.transicao = false;
 }
+	
+function ativaEfeitos(){
+	
+	layer_enable_fx("Folhas", global.efeitosAtivos);
+	layer_enable_fx("EfeitosAgua", global.efeitosAtivos);
+	layer_enable_fx("Passaros", global.efeitosAtivos);
+	layer_enable_fx("Coletaveis", global.efeitosAtivos);
+}

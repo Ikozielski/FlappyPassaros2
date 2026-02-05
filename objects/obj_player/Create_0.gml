@@ -9,3 +9,6 @@ vspeed = gravity;
 
 image_speed = 0;
 
+
+//Usando a sprite correta
+sprite_index = global.spritePlayer;

@@ -3,7 +3,11 @@
 
 
 
-if (x <= -54) instance_destroy();
+if (x <= -54){
+	
+	instance_destroy(id, false);
+
+}
 
 
 if (global.perdeu){

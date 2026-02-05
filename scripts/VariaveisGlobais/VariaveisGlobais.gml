@@ -17,3 +17,9 @@
 	
 	//Variavel para saber se a transicao foi iniciada
 	global.transicao = false;
+	
+	global.itensBloqueados = [0, 1, 1];
+	
+	global.spritePlayer = spr_player_padrao;
+	
+	global.efeitosAtivos = 1;

@@ -10,6 +10,7 @@ global.pontos += 0.1;
 if(global.level < 9){
 	var _pontos_necessarios = global.lista_pontos[global.level-1];
 	if (global.pontos >= _pontos_necessarios){
+		audio_play_sound(snd_level_up, 1, 0);
 		global.level++;
 		layer_hspeed("bg_arvores",-global.level);
 		layer_hspeed("bg_reflexo_arvores",-global.level);

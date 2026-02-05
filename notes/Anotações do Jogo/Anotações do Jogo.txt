@@ -106,5 +106,43 @@ Botao
 	
 	Se ele está bloqueado, ele não tem animação
 	
+	Se a pessoa tem dinheiro (coletavel) suficiente e eu estou bloqueado
+	Eu posso ser desbloqueado (comprado) 
+	Eu vou avisar a variavel global dos itens bloqueados no meu indice que eu estou desbloqueado 
+	E tambem vou remover dos coletáveis o meu custo 
 	
+	Fazer o jogador usar a sprite da skin selecionada
 	
+	Se eu não estou bloqueado e a pessoa clicou em mim
+	Então a sprite global do player vai ser a minha sprite 
+	
+	Se eu fui comprado agora mesmo, eu também viro a sprite do player 
+	
+Sons
+
+	Importar o sound 
+	E colocar no inicio da room de jogo 
+	Parar o som pra ele nao recomeçar ligado
+	Parar o som na room inicio também 
+	Importe o som de level up, e toque sempre que o jogardor subir de level
+	Tocando o som de quando pega um coletável
+	
+Efeitos Visuais
+
+	Colocar efeitos nas layes acima de quais assets você quer o efeito 
+	Ou direto na camada para afetar só uma camada 
+	
+	Clonar o botao normal, e transformar ele no de efeitos
+	Ligar e Desligar os efeitos ao clicar no botão 
+	
+	Desativar os layers
+	Mudar a cor do botão se estiver ativo ou não;
+	
+	Crie uma função para ativar ou desativar os efeitos
+	Sempre que eu clicar no botão de efeitos ela roda 
+	Sempre que eu entrar em uma room ela roda
+	
+Configurar o jogo para publicar
+Exportar o jogo
+Locais para publicar o jogo
+

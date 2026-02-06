@@ -16,7 +16,7 @@ PLAYER
 	Layer para ele 
 	Colocar na Room
 
-Obstaculos 
+Obstaculos
 	Arvore 
 	Importar Sprite 
 	Criar objeto
